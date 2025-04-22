@@ -1,12 +1,11 @@
 # Design Document
 
 By Deva Manikanta Sala
-![Certificate](https://certificates.cs50.io/5b5d5305-d333-40a2-b587-9e2181457530.png?size=A4)
 
-## Video overview
+## Video overview 📽️
 [![Watch the video](https://img.youtube.com/vi/MMgJIS7Ynz0/default.jpg)](https://youtu.be/MMgJIS7Ynz0)
 
-## Scope
+## Scope 🔭
 
 The database for CS50 SQL project, I worked on this project and named as **Neighbourly**, which is a **Local Marketplace Support System**. The database that I had designed includes all entities which are necessary to support the process of local businesses, connecting customers, business owners, and delivery agents. The database handles the listing of products and services, order placement, payment tracking, delivery agent assignment, and user's ratings, and system logging. As such, included in the database's scope is:
 * **Users**, like Customers, Business-Owners, Delivery-Agents, including basic information like name, username, password, location, address and role etc.
@@ -23,7 +22,7 @@ The database for CS50 SQL project, I worked on this project and named as **Neigh
 
 Out of scope for this project involve aspects like direct user-to-user messaging, complex promotional or discount systems, delivery agent commission tracking, detailed inventory management, specific payment gateway operations, and advanced delivery route optimization.
 
-## Functional Requirements
+## Functional Requirements 📈
 
 The database will support:
 
@@ -40,7 +39,7 @@ The database will support:
 * Logging significant data movements, changes in core tables with a dedicated **logs** table.
 * Provides various pre-defined views for simplified querying of common information patterns (e.g., user counts per location, product/service summaries, active users, pending payments, top sellers etc.).
 
-## Representation
+## Representation 🖥️🚧
 
 Entities are captured in SQLite tables with the following schema.
 
@@ -275,7 +274,7 @@ As detailed by the diagram:
 * A `user`can give zero, one or many `service_ratings`, but only one rating per specific `service`. Each `service_rating` must be given by exactly one `user`.
 * A `service` can receive zero, one or many `service_ratings`. Each `service_rating` must be for exactly one `service`.
 
-## Optimizations
+## Optimizations 🚀
 The following `VIEWs`, `INDEXes`, `TRIGGERs` are the optimizations that I had made to increase the performance and functionality of the schema.
 ### A. Views
 The views in this schema give a pre-defined result set that will optimize the data access, which in turn they optimize the way of querying.
@@ -648,10 +647,13 @@ The above triggers are used for logging the data movement in service-rating's li
 
 2. **`validate_service_rating_correctly_updated`** : The trigger that prevents users from updating ratings or reviews for the wrong service or user, which ensures that feedback is accurate and trustworthy.
 
-## Limitations
+## Limitations 📉
 There are several limitations when compared to the real-world application, and yet I tried my utmost to work on this project to make it aligns with the real-world applications.
 ***The following are the `limitations` that are observed:***
 * The current schema assumes a business is owned by only one user account. The partnerships or multiple owners would require changes in the schema.
 * The schema doesn't handle complex inventory concepts like batch tracking, stock reservations, or varying service slot durations within a single service.
 * The `passwords` in the schema are stored as `TEXT`, but in a real-world application, they absolutely hashed before storing, whereas the triggers checking password changes history (`logs` table) works on stored values, which is very insecure if not hashed.
 * There is no built-in mechanism for communication between users (for example, `customer` asking a `business owner` a question).
+
+## Certificate 🎖️
+![Certificate](https://certificates.cs50.io/5b5d5305-d333-40a2-b587-9e2181457530.png?size=A4)
