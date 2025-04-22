@@ -3,7 +3,9 @@
 By Deva Manikanta Sala
 
 ## Video overview 📽️
-[![Watch the video](https://img.youtube.com/vi/MMgJIS7Ynz0/default.jpg)](https://youtu.be/MMgJIS7Ynz0)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=MMgJIS7Ynz0" target="_blank">
+ <img src="http://img.youtube.com/vi/MMgJIS7Ynz0/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 ## Scope 🔭
 
