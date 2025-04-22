@@ -1,7 +1,7 @@
 # Design Document
 
 By Deva Manikanta Sala
-![Certificate](https://cs50.harvard.edu/certificates/5b5d5305-d333-40a2-b587-9e2181457530.png)
+![Certificate](https://certificates.cs50.io/5b5d5305-d333-40a2-b587-9e2181457530.png?size=A4)
 
 ## Video overview
 [![Watch the video](https://img.youtube.com/vi/MMgJIS7Ynz0/default.jpg)](https://youtu.be/MMgJIS7Ynz0)
