@@ -3,7 +3,7 @@
 By Deva Manikanta Sala
 
 ## Video overview
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MMgJIS7Ynz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/MMgJIS7Ynz0/default.jpg)](https://youtu.be/MMgJIS7Ynz0)
 
 ## Scope
 
