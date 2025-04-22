@@ -4,6 +4,7 @@ By Deva Manikanta Sala
 
 ## Video overview
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=MMgJIS7Ynz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Scope
 
 The database for CS50 SQL project, I worked on this project and named as **Neighbourly**, which is a **Local Marketplace Support System**. The database that I had designed includes all entities which are necessary to support the process of local businesses, connecting customers, business owners, and delivery agents. The database handles the listing of products and services, order placement, payment tracking, delivery agent assignment, and user's ratings, and system logging. As such, included in the database's scope is:
