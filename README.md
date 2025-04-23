@@ -1,4 +1,6 @@
-# Design Document
+# Design Document for CS50's SQL final project
+
+[![Course](https://img.shields.io/badge/Course-CS50%20SQL-blue)](https://cs50.harvard.edu/sql/) [![Language](https://img.shields.io/badge/Language-SQL-orange)]() [![Database](https://img.shields.io/badge/Database-SQLite-blue?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 #### By Deva Manikanta Sala
 
@@ -659,3 +661,9 @@ There are several limitations when compared to the real-world application, and y
 
 ## Certificate 🎖️
 ![Certificate](https://certificates.cs50.io/5b5d5305-d333-40a2-b587-9e2181457530.png?size=A4)
+
+
+[![Status](https://img.shields.io/badge/Status-Completed-green)]() [![Features](https://img.shields.io/badge/Features-Views%2C%20Triggers%2C%20Indexes-success)]() [![Focus](https://img.shields.io/badge/Focus-Schema%20Design-blueviolet)]() [![Documentation](https://img.shields.io/badge/Documentation-Yes-brightgreen)]() [![Editor](https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode)]() [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/your-profile-url/)
+
+***By,***<br>
+***Deva Manikanta Sala***
