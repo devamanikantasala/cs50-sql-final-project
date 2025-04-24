@@ -462,6 +462,7 @@ The above triggers are used for logging the data movements in product-model's li
 1. **`compare_product_model_mfg_exp_date_on_insert`** **&** **`compare_product_model_mfg_exp_date_on_update`** : These triggers ensures that the `mfg_date` (manufacture-date) is not later than `exp_date` (expiration-date) upon both `INSERT` and `UPDATE` operations, thus these triggers prevents invalid date assignments and maintains data consistency and integrity.<br>
 ><b><i>The triggers 5.2.3, 5.2.4 (in `schema.sql`) context is similar and are used for both <code>INSERT</code> and <code>UPDATE</code> operation</i></b>
 <br>
+
 2. **`validate_format_of_mfg_exp_dates_on_insert`** **&** **`validate_format_of_mfg_exp-dates_on_update`** : These triggers validates that the formats of the `mfg_date` (manufacture-date) and `exp_date` (expiration-date) upon `INSERT` and `UPDATE` operations, thus these triggers ensures that they are in required format and prevents inconsistent data.
 
 #### 6. Triggers on `services` table
